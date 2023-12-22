@@ -1,0 +1,64 @@
+/* MainContent.css */
+
+.main-container {
+  justify-content: center;
+  align-items: center; /* Center vertically */
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%; /* Set the width to 100% to ensure responsiveness */
+  margin-top: 130px;
+}
+
+.card {
+  justify-items: center;
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+  z-index: 90;
+  text-align: center; /* Center the text content within the card */
+  
+}
+
+.tvimage {
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  z-index: 2;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for screens up to 768px wide */
+  .container {
+    margin-top: 80px; /* Adjust the margin for smaller screens */
+  }
+
+  .card {
+    /* Add any additional responsive styles for the card */
+  }
+
+  .tvimage {
+    /* Add any additional responsive styles for the TV image */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjust styles for screens up to 480px wide */
+  .container {
+    margin-top: 60px; /* Further adjust the margin for smaller screens */
+  }
+
+  .card {
+    /* Add any additional responsive styles for the card at this breakpoint */
+  }
+
+  .tvimage {
+    /* Add any additional responsive styles for the TV image at this breakpoint */
+  }
+}

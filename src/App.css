@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Special Elite";
+}
+
+
+
+header {
+  height: 23vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(../public/images/backgroundert.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav ul {
+  display: flex;
+  margin: 10px;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  gap: 2rem; /* Adjusted gap for responsiveness */
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content vertically */
+  min-height: 100vh; /* Use min-height for responsiveness */
+}
+
+/* .card {
+  margin: 30px;
+  height: fit-content;
+  width: fit-content;
+} */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 10rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a {
+  font-size: 3vw; /* Adjust font size based on viewport width */
+  color: black;
+}
+
+.contact-info {
+  font-size: 1.5vw; /* Adjust font size based on viewport width */
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  width: 8vw;
+  height: 6vh;
+  border-width: 1px;
+  color: white;
+  border-color: #54381e;
+  border-radius: 3px; /* Added border-radius for a more modern look */
+  box-shadow: inset 0px 1px 0px 0px #a6827e;
+  text-shadow: inset 0px 1px 0px #54381e;
+  background: linear-gradient(#7d5d3b, #634b30);
+}
+
+.btn:hover {
+  background: linear-gradient(#634b30, #7d5d3b);
+}
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column; /* Stack navigation items vertically on smaller screens */
+    gap: 1rem;
+  }
+
+  a {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+
+  .contact-info {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .btn {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    width: 100%; /* Make button full width on smaller screens */
+  }
+}
+@media screen and (max-width: 600px) {
+  .tv {
+    display: none; /* Hide TV on screens with a width of 600 pixels or less */
+  }
+  .animation{
+    display: none;
+  }
+}

@@ -1,0 +1,85 @@
+/* MainContent.css */
+
+.main-container {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+ margin-top: 130px;
+}
+
+.card {
+  justify-items: center;
+  height: 80vh;
+  width: 50vw;
+  position: relative;
+  z-index: 90;
+  text-align: center;
+}
+
+.tv {
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  z-index: 2;
+}
+
+.animation {
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  z-index: 1;
+}
+
+.form-container {
+  margin-top: 50%;
+  width: 100%; /* Set the width to 100% to match the container width */
+  max-width: 340px; /* Adjust the max-width according to your design */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+  text-align: left;
+}
+
+label,
+textarea,
+input {
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(#7d5d3b, #634b30);
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .card {
+    width: 80vw; /* Adjust card width for smaller screens */
+  }
+
+  .form-container {
+    max-width: 100%; /* Adjust the form container max-width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 90vw; /* Further adjust card width for even smaller screens */
+  }
+}

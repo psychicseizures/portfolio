@@ -1,0 +1,58 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  height: 500px;
+  grid-gap: 3rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+}
+
+.left {
+  width: 50%; /* Adjust the width as needed */
+  padding: 20px; /* Add padding as needed */
+  right: 40px;
+  box-sizing: border-box; /* Include padding and border in the width */
+  position: relative;
+  flex: 1; /* Take up remaining space */
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.tvImage {
+  position: absolute;
+  width: 140%; /* Adjust the width for a larger image */
+  z-index: 1;
+}
+
+.resumeImage {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 140%; /* Adjust the width for a larger image */
+}
+
+.right {
+  width: 50%; /* Adjust the width as needed */
+  padding: 20px; /* Add padding as needed */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* Optional: Add a media query for responsive design */
+@media (max-width: 768px) {
+  .container {
+    width: 100%; /* Make it full-width on smaller screens */
+  }
+
+  .left,
+  .right {
+    width: 100%; /* Stack the sections on smaller screens */
+  }
+}

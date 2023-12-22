@@ -1,0 +1,39 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 320px; /* Adjust the grid-gap for more space between TV images */
+}
+
+.container {
+  width: 100%;
+  max-width: 430px;
+  position: relative;
+}
+
+.image-container,
+.animation-container {
+  height: fit-content;
+  width: 100%;
+}
+
+.tv-image,
+.animation-image {
+  width: 100%;
+  position: absolute;
+}
+
+.tv-image {
+  z-index: 2;
+}
+
+.animation-image {
+  z-index: 1;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}

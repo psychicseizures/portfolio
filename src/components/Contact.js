@@ -36,10 +36,10 @@ function ContactPage() {
     <div className='main-container'>
       <div className='container'>
         <div className="tv">
-          <img src="../images/oldtv.png" alt="tv" width="840px" />
+          <img src="/portfolio/images/oldtv.png" alt="tv" width="840px" />
         </div>
         <div className="animation">
-          <img src="../images/pause.png" alt="ani" height="465px" />
+          <img src="/portfolio/images/pause.png" alt="ani" height="465px" />
         </div>
         <div className="card">
           <div className="form-container">

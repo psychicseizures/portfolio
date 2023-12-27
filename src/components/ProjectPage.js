@@ -19,11 +19,11 @@ function CardContainer() {
         <div className="container" key={index}>
           <div className="image-container">
             <a href={card.link} target="_blank" rel="noopener noreferrer">
-              <img src={`/images/${card.image}`} alt="Avatar" className="tv-image" />
+              <img src={`/portfolio/images/${card.image}`} alt="Avatar" className="tv-image" />
             </a>
           </div>
           <div className="animation-container">
-            <img src={`/images/${card.animation}`} alt="ani" className="animation-image" />
+            <img src={`/portfolio/images/${card.animation}`} alt="ani" className="animation-image" />
           </div>
         </div>
       ))}

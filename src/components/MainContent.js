@@ -9,10 +9,10 @@ function MainContent() {
       <div className='container'>
         
           <div className="tvimage">
-            <img src="/images/oldtv.png" alt="tv" width="840px"  />
+            <img src="/portfolio/images/oldtv.png" alt="tv" width="840px"  />
           </div>
           <div className="animationimage">
-            <img src="./images/Animation_AdobeExpress.gif" alt="ani" height="465px" />
+            <img src="/portfolio/images/Animation_AdobeExpress.gif" alt="ani" height="465px" />
           </div>
           {/* Add content similar to the ContactPage form here if needed */}
         </div>

@@ -13,7 +13,7 @@
 }
 
 .left {
-  width: 50%; /* Adjust the width as needed */
+  width: 100%; /* Adjust the width as needed */
   padding: 20px; /* Add padding as needed */
   right: 40px;
   box-sizing: border-box; /* Include padding and border in the width */

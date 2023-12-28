@@ -23,8 +23,9 @@ function App() {
             <MainContent />
           </Route>
           {/* Add more routes if needed */}
+          <Footer />
         </Switch>
-        <Footer />
+     
       </div>
     </Router>
   );

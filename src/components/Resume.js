@@ -7,7 +7,7 @@ const ResumePage = () => {
       <div className="container">
         <div className="left">
           <div className="image-container">
-            <img src="/portfolio/images/oldtv.png" alt="TV" className="tvImage" width="430px"/>
+            <img src="/portfolio/images/oldtv.png" alt="TV" className="tvImage" width="1030px"/>
             <div className="resumeImage">
               <img src="/portfolio/images/resumeimage.jpg" alt="Resume" style={{ width: '100%' }} />
             </div>

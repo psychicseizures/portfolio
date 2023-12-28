@@ -56,9 +56,11 @@
 
   .card {
     /* Add any additional responsive styles for the card at this breakpoint */
+    display: none;
   }
 
   .tvimage {
     /* Add any additional responsive styles for the TV image at this breakpoint */
+    display: none;
   }
 }

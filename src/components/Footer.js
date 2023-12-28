@@ -5,9 +5,8 @@ function Footer() {
     <footer>
  
       <div className="icons">
-        <a href="#"><i className="fab fa-twitter"></i></a>
-        <a href="#"><i className="fab fa-facebook"></i></a>
-        <a href="#"><i className="fab fa-instagram"></i></a>
+        <a href=""><i className="fab fa-facebook"></i></a>
+        <a href=""><i className="fab fa-instagram"></i></a>
       </div>
     </footer>
   );

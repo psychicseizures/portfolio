@@ -1,6 +1,6 @@
 import React from 'react';
 import "./App.css"
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; // Corrected import statement
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import MainContent from './components/MainContent';
@@ -23,9 +23,8 @@ function App() {
             <MainContent />
           </Route>
           {/* Add more routes if needed */}
-          <Footer />
         </Switch>
-     
+        <Footer />
       </div>
     </Router>
   );

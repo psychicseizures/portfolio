@@ -19,7 +19,8 @@ function App() {
           <Route path="/resume" component={ResumePage}/>
           <Route path="/project" component={ProjectPage} />
           <Route path="/contact" component={ContactPage} />
-          <Route path="/" exact>
+          <Route path="/" component={MainContent} />
+          <Route path="/portfolio" exact>
             <MainContent />
           </Route>
           {/* Add more routes if needed */}

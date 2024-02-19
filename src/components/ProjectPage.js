@@ -6,7 +6,7 @@ function CardContainer() {
     {
       image: 'oldtv.png',
       animation: 'searchformusic.png',
-      link: 'https://searchformusic.vercel.app/',
+      link: 'https://psychicseizures.github.io/searchformusic/',
       description: 'A little app I made for fun and to learn. I made it based on instructions from the "Cooper Codes" channel on Youtube. It will give you all the albums a band has made if you type in a name, by calling up the Spotify API. I later added some features to it, and I learned a lot from this project',
     },
     {
